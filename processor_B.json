@@ -1,0 +1,66 @@
+{
+  "name": "Processor B (9-qubit guide-reference connectivity)",
+  "num_qubits": 9,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "noise_model": {
+    "one_qubit_error_probability": 0.001,
+    "two_qubit_error_probability": 0.005,
+    "readout_error_probability": 0.01
+  },
+  "topology_note": "Nine-qubit graph copied from the guide excerpt supplied by the participant. Confirm against the latest official kit before final upload."
+}

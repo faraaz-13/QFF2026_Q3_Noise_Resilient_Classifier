@@ -1,0 +1,40 @@
+{
+  "project": "Qiskit Fall Fest 2026 Phase 1 - Q3 Noise-Resilient Classifier",
+  "status": "Local Aer simulation using the supplied Phase 1 noise values; no physical hardware execution.",
+  "seed": 42,
+  "shots_per_circuit": 4096,
+  "python_version": "3.13.5",
+  "qiskit_version": "2.5.2",
+  "train_samples": 12,
+  "test_samples": 30,
+  "dataset": "sklearn.datasets.make_moons(n_samples=100, noise=0.1, random_state=42)",
+  "features": [
+    "moon feature 1",
+    "moon feature 2"
+  ],
+  "conditions": [
+    "ideal",
+    "noisy_raw",
+    "noisy_readout_mitigated",
+    "noisy_zne",
+    "noisy_zne_readout_mitigated"
+  ],
+  "zne_scales": [
+    1.0,
+    3.0,
+    5.0
+  ],
+  "zne_method": "Quadratic extrapolation of P(00) at simulator gate-noise scales 1, 3, 5, evaluated at scale 0. Readout error is held fixed. This is noise-parameter scaling, not gate folding. Raw extrapolated mean and clipped fraction are logged.",
+  "noise_scaling_rule": "p_scaled = 1 - (1 - p_base)**scale",
+  "readout_mitigation": "Symmetric independent-bit assignment-matrix inversion; negative corrected probabilities clipped to zero and the full vector renormalized.",
+  "limitations": [
+    "Aer noise model is synthetic and does not represent measured hardware calibration.",
+    "Noise-parameter scaling is not gate-folding ZNE and need not follow a linear noise trajectory.",
+    "Quadratic extrapolation may be unstable and clipped estimates can hide overshoot; raw mean and clipped fraction are logged.",
+    "Finite-shot kernel estimates can yield non-positive-semidefinite training matrices.",
+    "No quantum advantage is claimed.",
+    "Processor A uses a participant-defined chain; Processor B uses the guide-reference graph copied from participant-supplied instructions. Verify current official kit before submission.",
+    "The two-qubit feature-map circuit can fit on one connected edge of either topology, so zero SWAP overhead is expected and does not establish a general topology advantage."
+  ],
+  "runtime_seconds_total": 111.831
+}

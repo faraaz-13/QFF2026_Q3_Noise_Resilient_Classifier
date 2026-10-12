@@ -1,0 +1,1 @@
+MissingOptionalLibraryError("The 'pylatexenc' library is required to use 'MatplotlibDrawer'. You can install it with 'pip install pylatexenc'.")

@@ -1,0 +1,21 @@
+processor,condition,kernel_set,kernel_MAE,kernel_RMSE,kernel_max_absolute_error,num_kernel_elements,reference
+Processor A (5-qubit participant-defined chain),ideal,train,0.0,0.0,0.0,144,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),ideal,test,0.0,0.0,0.0,360,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_raw,train,0.008266872829861112,0.010559297631720286,0.0284423828125,144,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_raw,test,0.007752821180555556,0.010540464988640256,0.03369140625,360,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_readout_mitigated,train,0.0028854803329012696,0.003599048793396168,0.009565919799042089,144,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_readout_mitigated,test,0.0032647848846436875,0.004301691040168097,0.014825772464598153,360,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_zne,train,0.005707634819878528,0.007900061923391724,0.023437500000000222,144,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_zne,test,0.0049741956922743176,0.00694766065341764,0.02441406249999989,360,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_zne_readout_mitigated,train,0.001163838114841051,0.0014703882002605475,0.003786954527264963,144,same-processor ideal simulated kernel
+Processor A (5-qubit participant-defined chain),noisy_zne_readout_mitigated,test,0.0017171529360076561,0.0021684592575090043,0.007373979815539666,360,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),ideal,train,0.0,0.0,0.0,144,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),ideal,test,0.0,0.0,0.0,360,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_raw,train,0.008266872829861112,0.010559297631720286,0.0284423828125,144,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_raw,test,0.007752821180555556,0.010540464988640256,0.03369140625,360,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_readout_mitigated,train,0.0028854803329012696,0.003599048793396168,0.009565919799042089,144,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_readout_mitigated,test,0.0032647848846436875,0.004301691040168097,0.014825772464598153,360,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_zne,train,0.005707634819878528,0.007900061923391724,0.023437500000000222,144,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_zne,test,0.0049741956922743176,0.00694766065341764,0.02441406249999989,360,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_zne_readout_mitigated,train,0.001163838114841051,0.0014703882002605475,0.003786954527264963,144,same-processor ideal simulated kernel
+Processor B (9-qubit guide-reference connectivity),noisy_zne_readout_mitigated,test,0.0017171529360076561,0.0021684592575090043,0.007373979815539666,360,same-processor ideal simulated kernel

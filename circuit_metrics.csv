@@ -1,0 +1,11 @@
+processor,mode,available_physical_qubits,circuit_qubits,depth_mean,depth_max,total_gates_mean,two_qubit_gates_mean,two_qubit_gates_max,swap_count_mean,swap_count_max
+Processor A (5-qubit participant-defined chain),ideal,5,5,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor A (5-qubit participant-defined chain),noisy_raw,5,5,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor A (5-qubit participant-defined chain),noisy_readout_mitigated,5,5,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor A (5-qubit participant-defined chain),zne_compiled_zne_plus_readout_mitigation,5,5,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor A (5-qubit participant-defined chain),zne_compiled_zne_without_readout_mitigation,5,5,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor B (9-qubit guide-reference connectivity),ideal,9,9,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor B (9-qubit guide-reference connectivity),noisy_raw,9,9,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor B (9-qubit guide-reference connectivity),noisy_readout_mitigated,9,9,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor B (9-qubit guide-reference connectivity),zne_compiled_zne_plus_readout_mitigation,9,9,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
+Processor B (9-qubit guide-reference connectivity),zne_compiled_zne_without_readout_mitigation,9,9,11.738095238095237,12,20.341269841269842,1.9523809523809523,2,0.0,0
